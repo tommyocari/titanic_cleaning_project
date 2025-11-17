@@ -8,11 +8,11 @@ and exporting a final cleaned CSV.
 ## Cleaning Steps
 - Removed duplicates
 - Standardized categorical fields (Sex, Embarked)
-- Extracted passenger titles from Name
-- Imputed missing age values based on passenger class
+- Extracted passenger titles and Surname from Name
+- Imputed missing age and fare values based on passenger class
 - Replaced missing cabin values with "Unknown"
 - Converted data types to categorical where appropriate
-- Detected and handled outliers in Fare and Age
+- Detected and handled outliers in Fare
 - Exported cleaned dataset
 
 ## Tools
